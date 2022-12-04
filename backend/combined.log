@@ -516,3 +516,4 @@
 {"level":"info","message":"Message published to topic my-topic: hello world"}
 {"level":"info","message":"Message published to topic my-topic: hello world"}
 {"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Producer connected to Kafka"}

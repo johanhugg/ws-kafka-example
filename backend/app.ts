@@ -1,6 +1,6 @@
 import cuid from "cuid";
-import { Kafka } from "kafkajs";
-import { createLogger, format, transports } from "winston";
+import { Kafka, logLevel, LogEntry } from "kafkajs";
+import winston, { createLogger, format, transports } from "winston";
 import { WebSocketServer } from "ws";
 
 // Create a logger for logging messages
@@ -8,15 +8,49 @@ const logger = createLogger({
   level: "info",
   format: format.json(),
   transports: [
-    new transports.Console(),
+      new winston.transports.Console({
+      format: winston.format.combine(
+        // Only use colors if we are in dev mode
+        winston.format.colorize({ all: process.env.NODE_ENV === 'dev' }),
+        winston.format.simple()
+      )
+    }),
     new transports.File({ filename: "error.log", level: "error" }),
     new transports.File({ filename: "combined.log" }),
   ],
 });
 
+const toWinstonLogLevel = level => {
+  switch (level) {
+      case logLevel.ERROR:
+      case logLevel.NOTHING:
+          return 'error'
+      case logLevel.WARN:
+      default:
+          return 'warn'
+      case logLevel.INFO:
+          return 'info'
+      case logLevel.DEBUG:
+          return 'debug'
+  }
+};
+
+const WinstonLogCreator = (_logLevel: logLevel) => {
+  return ({ namespace, level, label, log }: LogEntry) => {
+      const { message, ...extra } = log
+      logger.log({
+          level: toWinstonLogLevel(level),
+          message,
+          extra,
+      })
+  }
+};
+
 // Create a Kafka client
 const kafka = new Kafka({
   brokers: ["127.0.0.1:9092"],
+  logLevel: process.env.NODE_ENV === "dev" ? logLevel.DEBUG : logLevel.INFO,
+  logCreator: WinstonLogCreator,
 });
 
 // Create a producer for publishing messages to a topic

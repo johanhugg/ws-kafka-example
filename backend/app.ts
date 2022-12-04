@@ -20,7 +20,7 @@ const logger = createLogger({
   ],
 });
 
-const toWinstonLogLevel = level => {
+const toWinstonLogLevel = (level: any) => {
   switch (level) {
       case logLevel.ERROR:
       case logLevel.NOTHING:
@@ -72,17 +72,19 @@ wss.on("connection", async (ws) => {
   clients[id] = ws;
 
   ws.on("close", function () {
+    logger.info("Client disconnected, deleting");
     delete clients[id];
   });
   // Listen for publish messages
   ws.on("message", async (message) => {
     const data = JSON.parse(message.toString());
+    const dataWithId = JSON.stringify({ ...data, clientId: id });
 
     if (data.type === "publish") {
       // Publish the message to the topic
       await producer.send({
         topic: data.topic,
-        messages: [{ value: data.message }],
+        messages: [{ value: dataWithId }],
       });
       ws.send(
         JSON.stringify({
@@ -104,15 +106,17 @@ wss.on("connection", async (ws) => {
   // Start consuming messages from the topic
   await consumer.run({
     eachMessage: async ({ topic, partition, message }) => {
+      logger.info(`Message received from topic ${topic}: ${message.value}, clientsIds: ${Object.keys(clients)}`);
       // Send the message to the client
+      const data = JSON.parse(message.value ? message.value.toString() : "");
       for (let clientId in clients) {
-        if (clientId !== id) {
+        if (clientId !== data.id) {
           clients[clientId].send(
             JSON.stringify({
               type: "message",
               topic: topic,
               partition: partition,
-              message: message.value?.toString(),
+              message: data.message,
             })
           );
         }

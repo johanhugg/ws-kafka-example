@@ -1,0 +1,19 @@
+dist
+package-lock.json
+node_modules
+.idea
+.vscode
+*.log
+coverage/*
+.env*
+.DS_Store
+index.html
+
+todo.org
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.env
+database.json

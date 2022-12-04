@@ -1,0 +1,162 @@
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world1"}
+{"level":"info","message":"Message received from topic my-topic: hello world1"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world123123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123123"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Producer connected to Kafka"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"Message published to topic my-topic: hello world123"}
+{"level":"info","message":"Message received from topic my-topic: hello world123"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"New connection from client"}
+{"level":"info","message":"Consumer connected to Kafka and subscribed to topic"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}
+{"level":"info","message":"Message published to topic my-topic: hello world"}
+{"level":"info","message":"Message received from topic my-topic: hello world"}

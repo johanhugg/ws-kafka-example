@@ -1,0 +1,12 @@
+{
+  "name": "kafka-proxy",
+  "version": "1.0.0",
+  "description": "A WebSocket server that acts as a proxy between a web application and Apache Kafka",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "kafkajs": "^2.2.1",
+    "winston": "^3.8.2",
+    "ws": "8.11.0"
+  }
+}

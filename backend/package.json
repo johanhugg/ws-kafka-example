@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "A WebSocket server that acts as a proxy between a web application and Apache Kafka",
   "main": "index.js",
-  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon -e ts -x TS_NODE_TRANSPILE_ONLY=true ts-node app.ts",
+    "dev": "npm-run-all --parallel start:dev"
+  },
   "dependencies": {
+    "@types/ws": "^8.5.3",
+    "cuid": "^2.1.8",
     "kafkajs": "^2.2.1",
     "winston": "^3.8.2",
     "ws": "8.11.0"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "npm-run-all": "4.1.3",
+    "nodemon": "1.18.9"
   }
 }

@@ -1,6 +1,27 @@
+// Define a function for handling the closing of the WebSocket connection
+const handleClose = (ws) => {
+  ws.onclose = (event) => {
+    console.log("WebSocket connection closed");
+    // Check the ready state of the WebSocket connection
+    if (ws.readyState === WebSocket.CLOSED) {
+      // Attempt to reconnect to the server
+      const newWs = new WebSocket("ws://localhost:8080");
+
+      // Attach the onclose event handler to the new WebSocket instance
+      handleClose(newWs);
+
+      // Copy the onmessage event handler from the old WebSocket instance to the new one
+      newWs.onmessage = ws.onmessage;
+
+      // Replace the old WebSocket instance with the new one
+      window.ws = newWs;
+      console.log("WebSocket connection re-established");
+    }
+  };
+};
+
 // Connect to the WebSocket server
 const ws = new WebSocket("ws://localhost:8080");
-
 // Make the ws variable available in the global scope
 window.ws = ws;
 
@@ -18,6 +39,8 @@ ws.onmessage = (event) => {
   }
 };
 
+// Attach the onclose event handler to the WebSocket instance
+handleClose(ws);
 // Listen for submit events on the publish form
 const publishForm = document.getElementById("publishForm");
 publishForm.addEventListener("submit", (event) => {
